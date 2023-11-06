@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col p-5 bg-primary">Column</div>
+        <div class="col p-5 bg-info">Column</div>
+        <div class="col p-5 bg-danger">Column</div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 p-5 bg-primary">
+          <p class="text-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            quidem placeat ullam assumenda. Quos, explicabo. Quasi, quas soluta,
+            autem at fugit placeat cum, delectus temporibus ipsum minima quidem!
+            Amet, obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Molestias quidem placeat ullam assumenda. Quos, explicabo.
+            Quasi, quas soluta, autem at fugit placeat cum, delectus temporibus
+            ipsum minima quidem! Amet, obcaecati.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-5 bg-light mt-4 mb-4">
+      <h1 class="display-1 fw-bold text-center">hello world</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <img
+            src="./images/seedling.jpg"
+            alt="seedling"
+            class="img-fluid rounded-pill"
+          />
+        </div>
+        <div class="col-md-4">
+          <img src="./images/herb.jpg" alt="herb" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5 mt-5">
+      <div class="row">
+        <div class="col text-center">
+          <a href="http:www.ebay.ca" target="_blank">
+            <button class="btn btn-lg btn-primary rounded-pill">Enroll Today</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <ul class="list-group">
+            <li class="list-group-item lead p-5">
+              Lorem ipsum dolor sit amet.
+            </li>
+            <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+            <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+            <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+            <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="text-center mb-5">Login Form</h1>
+
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Email address</label>
+              <input type="email" class="form-control" placeholder="Email" />
+              <div class="form-text">We will keep private</div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input type="password" name="password" placeholder="password" />
+            </div>
+            <div class="mb-3">
+              <input type="checkbox" class="form-check-input" />
+              <label class="form-check-label">Check me out</label>
+            </div>
+            <button class="btn btn-primary mb-5">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <!-- <div class="row"> -->
+        <table class="table table-bordered table-striped">
+        <thead>
+<tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Job</th>
+    <th>Company</th>
+</tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>Web Developer</td>
+                <td>Google</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>Web Developer</td>
+                <td>Google</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>Web Developer</td>
+                <td>Google</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>Web Developer</td>
+                <td>Google</td>
+            </tr>
+
+
+
+        </tbody>
+      </table></div>
+    </div>
+    <nav class="nav mb-3 d-flex justify-content-evenly bg-primary">
+        <a href="#" class="nav-link text-light">Home</a>
+        <a href="#" class="nav-link text-light">About</a>
+        <a href="#" class="nav-link text-light">Services</a>
+        <a href="#" class="nav-link text-light">Contact</a>
+
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+        data-bs-interval="2000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/foliage.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/herb.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/seedling.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br/>
+
+      <!-- Button trigger modal -->
+      <div class="text-center">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Escape?
+  </button>
+      </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Leaving?</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          You are reading this!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br/>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
